@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+h2 {
+    color: #fff;
+    margin: 10px 0 5px;
+}
+.location {
+    color: #bada55;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+p {
+    color: #aaa;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.btn {
+    display: block;
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+    transition: background 0.3s;
+}
+.btn:hover {
+    background: #444;
+}
