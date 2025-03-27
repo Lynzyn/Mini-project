@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 98%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+.detail p{
+    width: 350px;
+    margin-bottom: 1rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.card{
+    background-color: hsl(225, 100%, 98%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width:400px ;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+
+}
+h1{
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 1rem;
+}
+.small-card{
+    background-color: hsla(230, 18%, 87%, 0.204);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.header img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.btn{
+    background-color: hsl(245, 75%, 52%);
+    display: inline-block;
+    padding: 15px 80px;
+    color: hsl(225, 100%, 94%);
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    box-shadow: 0 8px 16px  hsl(224, 23%, 55%,0.4), 0 6px 20px 0 hsl(224, 23%, 55%,0.9);
+    cursor: pointer;
+}
+.small-info span{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+h4{
+    font-weight: 800;
+    margin-bottom: 0.2rem;
+}
+.btn:hover{
+    background-color:hsl(245, 67%, 65%) ;
+}
+.small-card img{
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+}
+.small-card a{
+    margin-left: 4rem;
+    margin-right: 0.5rem;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    cursor: pointer;
+}
+.small-card a:hover{
+    color: hsl(245, 67%, 65%);
+    text-decoration: none;
+}
+.button{
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
